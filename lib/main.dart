@@ -7,10 +7,10 @@ void main() {
 }
 
 class Alubank extends StatelessWidget {
-  const Alubank({Key? key}) : super(key: key);
+const Alubank({ Key? key }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return MaterialApp(
       title: 'Alubank',
       theme: MyTheme,
