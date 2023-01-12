@@ -10,12 +10,16 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: const <Widget>[
-          Header(),
-          RecentActivity(),
-          AccountActions(),
-          AccountPoints(),
+      body: ListView(
+        children: [
+          Column(
+            children: const <Widget>[
+              Header(),
+              RecentActivity(),
+              AccountActions(),
+              AccountPoints(),
+            ],
+          ),
         ],
       ),
     );
