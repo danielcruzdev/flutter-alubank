@@ -1,12 +1,12 @@
 import 'package:alubank/themes/theme_colors.dart';
 import 'package:flutter/material.dart';
 
-ThemeData MyTheme = ThemeData(
+ThemeData myTheme = ThemeData(
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,
   brightness: Brightness.dark,
   fontFamily: 'Raleway',
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     bodyMedium: TextStyle(
       fontSize: 16,
     ),
